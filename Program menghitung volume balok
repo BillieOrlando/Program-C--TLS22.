@@ -1,0 +1,25 @@
+//PROGRAM CALCULATOR BANGUN RUANG BALOK
+#include <iostream>
+using namespace std;
+int main ()
+{
+    float rumus, volumeBalok, p, l, t;
+    int volumebalok ;
+    
+    cout<<"***** Volume Balok ******";
+    cout<<endl;
+    if(volumeBalok == 1)
+    cout<<"Volume Balok \n" ;
+    cout<<"\nmasukkan p :";
+    cin>>p;
+    cout<<"\nmasukkan l :";
+    cin>>l;
+    cout<<"\nmasukkan t :";
+    cin>>t;
+    
+    rumus=p*l*t;
+    cout<<"Hasil Volumenya ="<<rumus;
+    return 0;
+    
+    
+}
